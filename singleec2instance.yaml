@@ -22,7 +22,7 @@ Parameters:
   SubnetID:
     Description: ID of a Subnet.
     Type: AWS::EC2::Subnet::Id
-    Default: subnet-123456
+    Default: subnet-08ea827751fe11850
   SourceLocation:
     Description : The CIDR IP address range that can be used to RDP to the EC2 instances
     Type: String
@@ -34,7 +34,7 @@ Parameters:
   VPCID:
     Description: ID of the target VPC (e.g., vpc-0343606e).
     Type: AWS::EC2::VPC::Id
-    Default: vpc-blahblah
+    Default: vpc-0368388303b61cac1
 
 Resources:
 
